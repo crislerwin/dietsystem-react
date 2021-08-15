@@ -1,0 +1,12 @@
+{
+  "name": "estagio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch ./scss/styles.scss:css/styles.css "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

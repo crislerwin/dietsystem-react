@@ -1,0 +1,32 @@
+
+@mixin reset 
+{
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+ 
+  background-color: $main-color;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 14px;
+  color: $font-color;
+}
+p {
+  font-size: 14px;
+  color: $font-color;
+}
+a {
+  cursor : pointer
+}
+
+}
